@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="1.0" prefHeight="641.0" prefWidth="457.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="smartPlayer.SmartPlayerController">
+  <children>
+    <AnchorPane fx:id="SearchPane" layoutX="14.0" layoutY="14.0" prefHeight="45.0" prefWidth="429.0" style="-fx-background-color : #D3D3D3">
+      <children>
+        <TextField fx:id="searchTextField" layoutX="7.0" layoutY="7.0" prefHeight="31.0" prefWidth="297.0" />
+        <Button fx:id="searchButton" layoutX="311.0" layoutY="7.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="111.0" text="Search">
+          <font>
+            <Font size="13.0" />
+          </font>
+        </Button>
+      </children>
+    </AnchorPane>
+    <ListView fx:id="songList" layoutX="29.0" layoutY="59.0" prefHeight="522.0" prefWidth="400.0" />
+    <Button fx:id="beatHistogram" layoutX="29.0" layoutY="596.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="158.0" text="Beat Histogram">
+      <font>
+        <Font size="14.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="addSong" font="$x1" layoutX="245.0" layoutY="596.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="184.0" text="Add Song" />
+  </children>
+</AnchorPane>

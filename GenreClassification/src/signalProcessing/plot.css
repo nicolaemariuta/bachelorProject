@@ -1,0 +1,29 @@
+.chart-series-line {    
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+.default-color0.chart-series-line { -fx-stroke: #cc0000; }
+
+
+.chart-line-symbol { /* solid square */
+    -fx-background-color: #330066;
+    -fx-background-radius: 1px;
+    -fx-padding: 1px;
+     }
+
+.chart-plot-background {
+    -fx-background-color: #e2ecfe;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #000000;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #000000;
+}
+.chart-alternative-row-fill {
+    -fx-fill: #d8d8d8;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
